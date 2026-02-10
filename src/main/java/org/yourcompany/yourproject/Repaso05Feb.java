@@ -12,7 +12,9 @@ public class Repaso05Feb {
 
     public static void main(String[] args) {
         bibliotecario bibliotecario= new bibliotecario("78", "Jprada", "jprada", "mañana");
+        Socio socio = new Socio("78", "Danigoat", "jpradachavarro", 5);
         System.out.println(bibliotecario.darEmail());
+        socio.registrarPrestamo(2);
     }
 }
 
