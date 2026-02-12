@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Prestamo {
     private Socio socio;
-    private ArrayList<Ejemplar> = new ArrayList<>();
+    private ArrayList<Ejemplar> ejemplar= new ArrayList<>();
 
-    public void pedirPrestamo(Socio socio, Ejemplar ArrayList<Ejemplar>){
+    public void pedirPrestamo(Socio socio, Ejemplar ejemplar){
 
     }
     public void notificarCreacion(Notificador notificador){

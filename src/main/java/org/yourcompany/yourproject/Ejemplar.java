@@ -3,7 +3,7 @@ package org.yourcompany.yourproject;
 public class Ejemplar {
 
     private String codigo;
-    //Libro libro = new Libro();
+    private Libro libro;
 
 
     public String darCodigo() {
