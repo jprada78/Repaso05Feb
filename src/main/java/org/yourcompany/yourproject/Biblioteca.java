@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Biblioteca {
     private ArrayList<Socio> socios = new ArrayList<>();
     private ArrayList<Bibliotecario> bibliotecarios = new ArrayList<>();
+    private ArrayList<Libro> libros = new ArrayList<>();
 
     public Biblioteca(){
 
