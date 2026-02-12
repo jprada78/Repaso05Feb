@@ -11,8 +11,14 @@ package org.yourcompany.yourproject;
 public class Repaso05Feb {
 
     public static void main(String[] args) {
-        Bibliotecario bibliotecario= new Bibliotecario("78", "Jprada", "jprada", "mañana");
-        Socio socio = new Socio("78", "Danigoat", "jpradachavarro", 5);
+        Biblioteca biblioteca = new Biblioteca();
+
+        Bibliotecario bibliotecario= new Bibliotecario("78", "Jprada", "jpradachavarro@gmail.com", "mañana");
+        biblioteca.agregarBibliotecario(bibliotecario);
+
+        Socio socio = new Socio("22", "Danigoat", "danigoat@gmail.com", 5);
+        biblioteca.agregarSocio(socio);
+        System.out.println(biblioteca.darSocios().get(0).darNombre());
         System.out.println(bibliotecario.darEmail());
         socio.registrarPrestamo(2);
     }

@@ -17,6 +17,6 @@ public class Socio extends Usuario {
         if(multasPendientes > 0){
             throw new IllegalArgumentException("El socio tiene multas pendientes, no puede pedir prestamos");
         }
-        System.out.println("Se prestaron" + cantidad + " Libros");
+        System.out.println("Se prestaron " + cantidad + " Libros");
     }
 }
