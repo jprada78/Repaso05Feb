@@ -1,6 +1,6 @@
 package org.yourcompany.yourproject;
 
-public class Socio extends usuario {
+public class Socio extends Usuario {
     private int limiteEjemplares;
     private int ejemplaresEnPrestamo;
     private double multasPendientes;
