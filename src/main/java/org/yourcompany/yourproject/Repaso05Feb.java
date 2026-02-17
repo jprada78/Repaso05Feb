@@ -21,6 +21,12 @@ public class Repaso05Feb {
         System.out.println(biblioteca.darSocios().get(0).darNombre());
         System.out.println(bibliotecario.darEmail());
         socio.registrarPrestamo(2);
+
+        Notificador email = new EmailNotificador();
+        Notificador sms = new SmsNotificador();
+
+        email.enviar("usuario@correo.com", "Tu prestamo fue creado.");
+        sms.enviar("3001234567", "Tu prestamo fue aprobado.");
     }
 
 }
